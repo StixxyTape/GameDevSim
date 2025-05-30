@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bi24b1qxgyf32"]
+
+[ext_resource type="Script" uid="uid://dssbn7g8eq7c3" path="res://InteractionNodes/GameCreation/DesignPhase/DesignPhase.gd" id="1_8v3qb"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_hpcdw"]
+size = Vector3(0.5, 0.05, 0.5)
+
+[node name="ProtoLab" type="Node3D"]
+
+[node name="Tile" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_hpcdw")
+
+[node name="DesignPhase**" type="Node3D" parent="."]
+script = ExtResource("1_8v3qb")
+
+[node name="TileHolder" type="Node3D" parent="DesignPhase**"]

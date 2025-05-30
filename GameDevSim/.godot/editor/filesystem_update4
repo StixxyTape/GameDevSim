@@ -1,0 +1,9 @@
+res://WorldNodes/ProtoLab/ProtoLab.tscn
+res://InteractionNodes/GameCreation/DesignPhase/DesignPhase.gd
+res://Shaders/Outline.gdshader
+res://Shaders/Outline2.gdshader
+res://InteractionNodes/GameCreation/Tiles/SquareTile.tscn
+res://InteractionNodes/GameCreation/Tile/SquareTile.tscn
+res://InteractionNodes/GameCreation/Tiles/Tile.tscn
+res://InteractionNodes/GameCreation/Tiles/Tile.gd
+res://Autoloads/InputManager.gd
